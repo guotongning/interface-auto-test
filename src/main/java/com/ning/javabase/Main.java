@@ -11,5 +11,7 @@ package com.ning.javabase;
  * 5. 学习java 写注释相关
  */
 public class Main {
-
+    public static void main(String[] args) {
+        System.out.println();
+    }
 }
