@@ -1,5 +1,6 @@
 package com.ning.autotest;
 
+import com.ning.javabase.Main;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -26,5 +27,28 @@ public class Test1 {
     public void test1(){
         System.out.println("当中1");
     }
-
+    @Test
+    public void testAdd(){
+        System.out.println(new Main().add(1,1));
+    }
+    @Test
+    public void testDiv(){
+        System.out.println(new Main().div(2,2));
+    }
+    @Test
+    public void testSub(){
+        System.out.println(new Main().sub(3,2));
+    }
+    @Test
+    public void testMul(){
+        System.out.println(new Main().mul(3,2));
+    }
+    @Test
+    public void testA(){
+        System.out.println(new Main().A());
+    }
+    @Test
+    public void testB(){
+        System.out.println(new Main().B("123"));
+    }
 }

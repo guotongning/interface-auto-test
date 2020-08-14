@@ -11,7 +11,25 @@ package com.ning.javabase;
  * 5. 学习java 写注释相关
  */
 public class Main {
-    public static void main(String[] args) {
-        System.out.println();
+    public void call(){
+
+    }
+    public String A(){
+        return "abc";
+    }
+    public String B(String name){
+        return name + "def";
+    }
+    public int add(int a,int b){
+        return a+b;
+    }
+    public int mul(int a,int b){
+        return a*b;
+    }
+    public int div(int a,int b){
+        return a/b;
+    }
+    public int sub(int a,int b){
+        return a-b;
     }
 }
