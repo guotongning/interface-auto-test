@@ -3,19 +3,24 @@ package com.ning.javabase1;
 public class Oil {
     private double oilprice;
     private double oilTotal;
-    public double getOilprice(){
+
+    public double getOilprice() {
         return oilprice;
     }
-    public void setOilprice(double oilprice){
-        this.oilprice=oilprice;
+
+    public void setOilprice(double oilprice) {
+        this.oilprice = oilprice;
     }
-    public double getOilTotal(){
+
+    public double getOilTotal() {
         return oilTotal;
     }
-    public void setOilTotal(double oilTotal){
-        this.oilTotal=oilTotal;
+
+    public void setOilTotal(double oilTotal) {
+        this.oilTotal = oilTotal;
     }
-    public void oilRemaining(){
+
+    public void oilRemaining() {
         setOilTotal(0);
     }
 

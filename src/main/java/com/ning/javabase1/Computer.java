@@ -6,37 +6,48 @@ public class Computer {
     private int memorySize;
     private int deskSize;
     private double price;
-    public String getComputerType(){
+
+    public String getComputerType() {
         return computerType;
     }
-    public void setComputerType(String computerType){
-        this.computerType=computerType;
+
+    public void setComputerType(String computerType) {
+        this.computerType = computerType;
     }
-    public String getCpuType(){
+
+    public String getCpuType() {
         return cpuType;
     }
-    public void setCpuType(String cpuType){
-        this.cpuType=cpuType;
+
+    public void setCpuType(String cpuType) {
+        this.cpuType = cpuType;
     }
-    public int getMemorySize(){
+
+    public int getMemorySize() {
         return memorySize;
     }
-    public void setMemorySize(int memorySize){
-        this.memorySize=memorySize;
+
+    public void setMemorySize(int memorySize) {
+        this.memorySize = memorySize;
     }
-    public int getDeskSize(){
+
+    public int getDeskSize() {
         return deskSize;
     }
-    public void  setDeskSize(int deskSize){
-        this.deskSize=deskSize;
+
+    public void setDeskSize(int deskSize) {
+        this.deskSize = deskSize;
     }
-    public double getPrice(){
+
+    public double getPrice() {
         return price;
     }
-    public void setPrice(double price){
-        this.price=price;
+
+    public void setPrice(double price) {
+        this.price = price;
     }
-    public void damage(){
+
+    public void damage() {
         setPrice(0.0);
         setDeskSize(0);
         setMemorySize(0);
