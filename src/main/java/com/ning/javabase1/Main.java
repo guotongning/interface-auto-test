@@ -4,7 +4,7 @@ import org.junit.Test;
 
 public class Main {
     @Test
-    public void testCreate(){
+    public void testCreate() {
         Person person = new Person();
         person.setName("fwl");
         person.setAge(20);
@@ -23,14 +23,15 @@ public class Main {
         System.out.println(computer);
         System.out.println(person);
     }
+
     @Test
-    public void testCreate1(){
+    public void testCreate1() {
         //调用Computer类的构造方法，创建了一个Computer类型的computer对象。
         Computer computer = new Computer();
         computer.setComputerType("华硕");
         computer.setCpuType("i5-6700");
-        computer.setDeskSize(512*1024*1024);
-        computer.setMemorySize(8*1024*1024);
+        computer.setDeskSize(512 * 1024 * 1024);
+        computer.setMemorySize(8 * 1024 * 1024);
         computer.setPrice(9999.9);
         System.out.println(computer);
     }
