@@ -3,12 +3,15 @@ package com.ning.javabase;
 public class Nub {
     public String number;
     public static int zero;
-    public Nub(){
+
+    public Nub() {
 
     }
-    public Nub(String number){
-        this.number=number;
+
+    public Nub(String number) {
+        this.number = number;
     }
+
     public static void main(String[] args) {
         Nub nub = new Nub();
         Nub nub1 = new Nub("123");

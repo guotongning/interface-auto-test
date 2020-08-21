@@ -11,25 +11,38 @@ package com.ning.javabase;
  * 5. 学习java 写注释相关
  */
 public class Main {
-    public void call(){
+    public static void main(String[] args) {
+        System.out.printf("ALTER TABLE `class` MODIFY fuck enum(");
+        for (int i = 0; i < 10000; i++) {
+            System.out.printf("'" + (i + 1) + "',");
+        }
+    }
+
+    public void call() {
 
     }
-    public String A(){
+
+    public String A() {
         return "abc";
     }
-    public String B(String name){
+
+    public String B(String name) {
         return name + "def";
     }
-    public int add(int a,int b){
-        return a+b;
+
+    public int add(int a, int b) {
+        return a + b;
     }
-    public int mul(int a,int b){
-        return a*b;
+
+    public int mul(int a, int b) {
+        return a * b;
     }
-    public int div(int a,int b){
-        return a/b;
+
+    public int div(int a, int b) {
+        return a / b;
     }
-    public int sub(int a,int b){
-        return a-b;
+
+    public int sub(int a, int b) {
+        return a - b;
     }
 }

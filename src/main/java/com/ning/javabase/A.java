@@ -3,11 +3,13 @@ package com.ning.javabase;
 public class A {
     public String a;
     public static int zoo;
-    public A(){
+
+    public A() {
 
     }
-    public A(String a){
-        this.a=a;
+
+    public A(String a) {
+        this.a = a;
     }
 
     public static void main(String[] args) {
