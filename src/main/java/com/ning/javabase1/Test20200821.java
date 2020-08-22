@@ -9,13 +9,15 @@ public class Test20200821 {
     public static void main(String[] args) {
         int i, j;
         i = 2;
-        j = 1;
         while (i <=100) {
+            j = 1;
             boolean shizhishu = true;
             while (j <= i) {
                 if (i%j==0 && j!=i&& j!=1) {
                     shizhishu = false;
-                } else j++;
+                    break;
+                }
+                j++;
             }
             if (shizhishu) {
                 System.out.println(i);

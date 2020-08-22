@@ -1,7 +1,7 @@
 package com.ning.javabase1;
 
 public class Person {
-    private String name;
+    private static String name;
     private int age;
     private boolean gender;
     private double score;
